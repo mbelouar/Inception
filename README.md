@@ -1,7 +1,7 @@
   
 
 "<div align="center">
-  <h1><strong>Unveiling the Docker Symphony: <br>Crafting a Secure and Dynamic Infrastructure</strong></h1>
+  <h1><strong>Inception</strong></h1>
 </div>
 
 <p align="center">
