@@ -56,6 +56,69 @@ Here is the corresponding Docker-compose file for inception project :
 ![h](https://github.com/mbelouar/Inception/blob/main/images/docker-compose-1.png)
 ![h](https://github.com/mbelouar/Inception/blob/main/images/docker-compose-2.png)
 
+## Project Notes
+
+### Viewing Docker Images, Containers, Volumes, and Networks
+
+- Show Docker images:
+  ```sh
+  docker images
+  ```
+
+- Show Docker containers:
+  ```sh
+  docker ps
+  ```
+  Add `-a` to view stopped/exited containers:
+  ```sh
+  docker ps -a
+  ```
+
+- Show Docker volumes:
+  ```sh
+  docker volume ls
+  ```
+  Inspect a volume:
+  ```sh
+  docker volume inspect <volume_name>
+  ```
+
+- Show Docker networks:
+  ```sh
+  docker network ls
+  ```
+
+### Useful Commands for Debugging Docker Containers
+
+- Show logs:
+  ```sh
+  docker-compose logs
+  ```
+  Follow logs for a specific container:
+  ```sh
+  docker-compose logs --follow <container_name>
+  ```
+
+- Run a container in interactive mode:
+  ```sh
+  docker run -it <image_ID>
+  ```
+
+- Execute a command inside a running container:
+  ```sh
+  docker exec <container_name> <command>
+  ```
+
+- Execute an interactive command inside a running container:
+  ```sh
+  docker exec -it <container_name> <command>
+  ```
+
+- Open a shell inside a running container:
+  ```sh
+  docker exec -it <container_name> sh
+  ```
+
 ### Project Directory Structure
     project-root/
     |-- srcs/
