@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img src="https://dspelaez.github.io/img/thumbnails/docker-art.png" alt="docker banner"/>
+  <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*MiiTlPl89vwpv_bvFUjacQ.jpeg" alt="docker banner"/>
 </p>
 
 ## About  :
