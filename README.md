@@ -52,7 +52,8 @@ Step into "Inception" – where Docker's power orchestrates a symphony of servic
 
 Here is the corresponding Docker-compose file for inception project : 
 
-![h](https://github.com/Abla-ouh/Inception-42/blob/main/Screen%20Shot%202023-08-07%20at%206.55.13%20PM.png)
+![h](https://github.com/mbelouar/Inception/blob/main/images/docker-compose-1.png)
+![h](https://github.com/mbelouar/Inception/blob/main/images/docker-compose-2.png)
 
 ### Project Directory Structure
     project-root/
