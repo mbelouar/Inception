@@ -13,9 +13,6 @@
 "*Inception*" is your passport to Docker mastery at 1337. Our mission? To construct a service infrastructure using Docker, choreographed by the ever-mysterious Docker Compose.
 Within this mission, a focal point emerges. A sentinel, **NGINX**, stands guard, accessible through port 443. It unveils a network shrouded in enigma, revealing hidden services. Here, nginx meets **WordPress**, guided by **php-fpm**, and whispers secrets to **MariaDB**, the data custodian.
 
-Yet, the SAGA continues! **WordPress** and **MariaDB** inscribe their legacy within dedicated volumes, epitomizing data's endurance.
-Step into "Inception" – where Docker's power orchestrates a symphony of services. Welcome to a journey where containers hold secrets, networks weave connections, and volumes etch persistence. Join us on this voyage of Docker discovery and mastery.
-
 ### Architecture and Requirements :
 - A Docker container that contains NGINX with TLSv1.2 or TLSv1.3 only.
 - A Docker container that contains WordPress + php-fpm (it must be installed and configured) only without nginx.
